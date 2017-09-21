@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{56b44871-05cb-4e4a-b827-13f54f5275ed}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\API Modules">
+      <UniqueIdentifier>{6dd457b2-57fa-4fa4-a11d-3c61888a7649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\API Modules\QTSSReflectorModule">
+      <UniqueIdentifier>{4051f2d2-23b5-4a96-aef0-3567ec926db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{d0d888c8-dea5-4264-bd86-05ffed06bf89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RTSPClientLib">
+      <UniqueIdentifier>{ab13d2dc-ab47-417a-964c-0623fdd9dc45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RTCP Utilities">
+      <UniqueIdentifier>{0cf46a52-a605-4b2a-8a25-bc9d3d350445}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\PrefsSourceLib\FilePrefsSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HTTPUtilitiesLib\HTTPProtocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HTTPUtilitiesLib\HTTPRequest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SafeStdLib\InternalStdLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\QTSSUserProfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\RTPOverbufferWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PrefsSourceLib\XMLParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PrefsSourceLib\XMLPrefsParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APIModules\QTSSAccessModule\AccessChecker.cpp">
+      <Filter>Source Files\API Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APIModules\QTSSAdminModule\AdminElementNode.cpp">
+      <Filter>Source Files\API Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APIModules\QTSSAdminModule\AdminQuery.cpp">
+      <Filter>Source Files\API Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APIModules\QTSSAccessLogModule\QTSSAccessLogModule.cpp">
+      <Filter>Source Files\API Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APIModules\QTSSAccessModule\QTSSAccessModule.cpp">
+      <Filter>Source Files\API Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APIModules\QTSSAdminModule\QTSSAdminModule.cpp">
+      <Filter>Source Files\API Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APIModules\QTSSFlowControlModule\QTSSFlowControlModule.cpp">
+      <Filter>Source Files\API Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APIModules\QTSSPOSIXFileSysModule\QTSSPosixFileSysModule.cpp">
+      <Filter>Source Files\API Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APIModules\QTSSWebDebugModule\QTSSWebDebugModule.cpp">
+      <Filter>Source Files\API Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APIModules\QTSSWebStatsModule\QTSSWebStatsModule.cpp">
+      <Filter>Source Files\API Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APIModules\QTSSReflectorModule\QTSSReflectorModule.cpp">
+      <Filter>Source Files\API Modules\QTSSReflectorModule</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APIModules\QTSSReflectorModule\QTSSRelayModule.cpp">
+      <Filter>Source Files\API Modules\QTSSReflectorModule</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APIModules\QTSSReflectorModule\RCFSourceInfo.cpp">
+      <Filter>Source Files\API Modules\QTSSReflectorModule</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APIModules\QTSSReflectorModule\ReflectorSession.cpp">
+      <Filter>Source Files\API Modules\QTSSReflectorModule</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APIModules\QTSSReflectorModule\ReflectorStream.cpp">
+      <Filter>Source Files\API Modules\QTSSReflectorModule</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APIModules\QTSSReflectorModule\RelayOutput.cpp">
+      <Filter>Source Files\API Modules\QTSSReflectorModule</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APIModules\QTSSReflectorModule\RelaySDPSourceInfo.cpp">
+      <Filter>Source Files\API Modules\QTSSReflectorModule</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APIModules\QTSSReflectorModule\RelaySession.cpp">
+      <Filter>Source Files\API Modules\QTSSReflectorModule</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APIModules\QTSSReflectorModule\RTPSessionOutput.cpp">
+      <Filter>Source Files\API Modules\QTSSReflectorModule</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APIModules\QTSSReflectorModule\RTSPSourceInfo.cpp">
+      <Filter>Source Files\API Modules\QTSSReflectorModule</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APIModules\QTSSReflectorModule\SequenceNumberMap.cpp">
+      <Filter>Source Files\API Modules\QTSSReflectorModule</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\GenerateXMLPrefs.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSMemoryLib\OSMemory.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\QTSSCallbacks.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\QTSSDataConverter.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\QTSSDictionary.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\QTSSErrorLogModule.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\QTSServer.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\QTSServerInterface.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\QTSServerPrefs.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\QTSSExpirationDate.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\QTSSFile.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\QTSSMessages.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\QTSSModule.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\QTSSPrefs.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\QTSSSocket.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\RTCPTask.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\RTPBandwidthTracker.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\RTPPacketResender.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\RTPSession.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\RTPSessionInterface.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\RTPStream.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\RTSPProtocol.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\RTSPRequest.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\RTSPRequestInterface.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\RTSPRequestStream.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\RTSPResponseStream.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\RTSPSession.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\RTSPSessionInterface.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\RunServer.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.tproj\win32main.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RTSPClientLib\ClientSocket.cpp">
+      <Filter>Source Files\RTSPClientLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RTSPClientLib\FakeRTSPClient.cpp">
+      <Filter>Source Files\RTSPClientLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RTSPClientLib\RTSPClient.cpp">
+      <Filter>Source Files\RTSPClientLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RTCPUtilitiesLib\RTCPAckPacket.cpp">
+      <Filter>Source Files\RTCP Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RTCPUtilitiesLib\RTCPAPPPacket.cpp">
+      <Filter>Source Files\RTCP Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RTCPUtilitiesLib\RTCPPacket.cpp">
+      <Filter>Source Files\RTCP Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RTCPUtilitiesLib\RTCPSRPacket.cpp">
+      <Filter>Source Files\RTCP Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="streamingrelay.cfg" />
+    <None Include="streamingserver.cfg" />
+  </ItemGroup>
+</Project>
