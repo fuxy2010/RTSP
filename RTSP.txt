@@ -1,0 +1,110 @@
+C->S
+DESCRIBE rtsp://10.10.10.15:1554/11.sdp RTSP/1.0
+CSeq: 1
+Accept: application/sdp
+User-agent: (null)
+
+
+
+S->C
+RTSP/1.0 200 OK
+Server: RTSPStack/1.1 (Build/11.11; Platform/Win32; Release/FYM; state/beta; )
+Cseq: 1
+Cache-Control: no-cache
+Content-length: 246
+Date: Thu, 23 Aug 2012 08:36:02 GMT
+Expires: Thu, 23 Aug 2012 08:36:02 GMT
+Content-Type: application/sdp
+x-Accept-Retransmit: our-retransmit
+x-Accept-Dynamic-Rate: 1
+Content-Base: rtsp://10.10.10.15:1554/11.sdp/
+
+v=0
+o=broadcast_sdp 94424920 3525593033 IN IP4 10.10.10.15:1554
+s=\11.sdp
+c=IN IP4 0.0.0.0
+t=0 0
+a=control:*
+m=video 0 RTP/AVP 0
+a=control:trackID=0
+m=audio 0 RTP/AVP 1
+a=control:trackID=1
+m=whiteboard 0 RTP/AVP 2
+a=control:trackID=2
+
+
+
+C->S
+SETUP rtsp://10.10.10.15:1554/11.sdp/trackID=0 RTSP/1.0
+CSeq: 2
+Transport: RTP/AVP/TCP;unicast;interleaved=0-1
+User-agent: (null)
+
+
+
+S->C
+RTSP/1.0 200 OK
+Server: RTSPStack/1.1 (Build/11.11; Platform/Win32; Release/FYM; state/beta; )
+Cseq: 2
+Cache-Control: no-cache
+Session: 35536559421637
+Date: Thu, 23 Aug 2012 08:36:02 GMT
+Expires: Thu, 23 Aug 2012 08:36:02 GMT
+Transport: RTP/AVP/TCP;unicast;interleaved=0-1
+
+
+C->S
+SETUP rtsp://10.10.10.15:1554/11.sdp/trackID=1 RTSP/1.0
+CSeq: 3
+Session: 35536559421637
+Transport: RTP/AVP/TCP;unicast;interleaved=2-3
+User-agent: (null)
+
+
+S->C
+RTSP/1.0 200 OK
+Server: RTSPStack/1.1 (Build/11.11; Platform/Win32; Release/FYM; state/beta; )
+Cseq: 3
+Session: 35536559421637
+Cache-Control: no-cache
+Date: Thu, 23 Aug 2012 08:36:02 GMT
+Expires: Thu, 23 Aug 2012 08:36:02 GMT
+Transport: RTP/AVP/TCP;unicast;interleaved=2-3
+
+
+C->S
+SETUP rtsp://10.10.10.15:1554/11.sdp/trackID=2 RTSP/1.0
+CSeq: 4
+Session: 35536559421637
+Transport: RTP/AVP/TCP;unicast;interleaved=4-5
+User-agent: (null)
+
+
+S->C
+RTSP/1.0 200 OK
+Server: RTSPStack/1.1 (Build/11.11; Platform/Win32; Release/FYM; state/beta; )
+Cseq: 4
+Session: 35536559421637
+Cache-Control: no-cache
+Date: Thu, 23 Aug 2012 08:36:02 GMT
+Expires: Thu, 23 Aug 2012 08:36:02 GMT
+Transport: RTP/AVP/TCP;unicast;interleaved=4-5
+
+
+C->S
+PLAY rtsp://10.10.10.15:1554/11.sdp RTSP/1.0
+CSeq: 5
+Session: 35536559421637
+Range: npt=0.0-
+x-prebuffer: maxtime=3.0
+User-agent: (null)
+
+
+S->C
+RTSP/1.0 200 OK
+Server: RTSPStack/1.1 (Build/11.11; Platform/Win32; Release/FYM; state/beta; )
+Cseq: 5
+Session: 35536559421637
+Range: npt=now-
+RTP-Info: url=rtsp://10.10.10.15:1554/11.sdp/trackID=0,url=rtsp://10.10.10.15:1554/11.sdp/trackID=1,url=rtsp://10.10.10.15:1554/11.sdp/trackID=2
+
